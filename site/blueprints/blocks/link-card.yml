@@ -1,0 +1,16 @@
+name: Link Card
+icon: bolt
+preview: fields
+wysiwyg: true
+fields:
+  title:
+    type: text
+    required: true
+  href:
+    label: URL
+    type: url
+    required: true
+  description:
+    type: textarea
+    buttons: false
+    required: false

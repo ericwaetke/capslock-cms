@@ -13,3 +13,4 @@ columns:
               - heading
               - text
               - card
+              - link-card
