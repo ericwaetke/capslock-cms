@@ -1,0 +1,11 @@
+title: Knowledge Base Article
+
+columns:
+  main:
+    sections:
+      fields:
+        type: fields
+        fields:
+          blocks:
+            type: blocks
+            size: huge

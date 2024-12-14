@@ -1,0 +1,19 @@
+title: Knowledge Base Category
+
+sections:
+
+  drafts:
+    label: Drafts
+    type: pages
+    status: draft
+    templates:
+      - knowledgebase_article
+      - knowledgebase_category
+
+  published:
+    label: Published Products
+    type: pages
+    status: listed
+    templates:
+      - knowledgebase_article
+      - knowledgebase_category
