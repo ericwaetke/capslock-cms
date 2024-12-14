@@ -9,3 +9,7 @@ columns:
           blocks:
             type: blocks
             size: huge
+            fieldsets:
+              - heading
+              - text
+              - card

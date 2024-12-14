@@ -1,0 +1,20 @@
+name: Card
+icon: bolt
+tabs:
+  content:
+    fields:
+      link:
+        type: url
+      text:
+        type: text
+      icon:
+        label: Icon
+        type: icon
+        folder: assets/icons # path to your icon folder, relative to the `index` kirby root (you can use the Kirby query language)
+        max: 1 # max number of icons to select - 1 will look like a 'select field', none or more like a 'multiselect' field
+  styles:
+    fields:
+      class:
+        type: text
+      id:
+        type: text
