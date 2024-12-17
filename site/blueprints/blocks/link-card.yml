@@ -6,10 +6,28 @@ fields:
   title:
     type: text
     required: true
+  type:
+    label: Linktyp
+    type: radio
+    required: true
+    default: internal
+    options:
+      internal: Interner Link
+      external: Externer Link
   href:
     label: URL
     type: url
+    when:
+      type: external
     required: true
+  url:
+    label: Page
+    multiple: false
+    required: true
+    store: id
+    when:
+      type: internal
+    type: pages
   description:
     type: textarea
     buttons: false

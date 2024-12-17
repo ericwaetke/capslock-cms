@@ -1,0 +1,9 @@
+Title: Introduction
+
+----
+
+Blocks: [{"content":{"text":"<p>Was ist Anticapitalismus? Was ist Capslock?</p><p></p><p>Sehr gute Fragen!</p>"},"id":"4bf3e5a2-83dc-4744-8d07-cb440b324784","isHidden":false,"type":"text"}]
+
+----
+
+Uuid: v7cDRzdmBWogdCLF
