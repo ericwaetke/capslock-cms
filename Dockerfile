@@ -43,14 +43,16 @@ COPY . .
 # Remove default content from the ./content directory
 RUN rm -rf /var/www/html/content/*
 
-# Set ownership of the working directory and its contents
-RUN chown -R www-data:www-data /var/www/html
-
 # Activate Apache modules headers & rewrite
 RUN a2enmod headers rewrite
 
 # Tell container to listen to port 80 at runtime
 EXPOSE 80
 
-# Start Apache web server
-CMD [ "/usr/sbin/apache2ctl", "-DFOREGROUND" ]
+# Copy the entrypoint script into the container
+COPY entrypoint.sh /usr/local/bin/entrypoint.sh
+RUN chmod +x /usr/local/bin/entrypoint.sh
+
+# Use the entrypoint script to start the container
+ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
+CMD ["/usr/sbin/apache2ctl", "-DFOREGROUND"]
