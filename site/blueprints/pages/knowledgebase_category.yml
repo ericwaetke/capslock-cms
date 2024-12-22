@@ -1,13 +1,12 @@
 title: Knowledge Base Category
 
 sections:
-
   drafts:
     label: Drafts
     type: pages
     status: draft
     templates:
-      - knowledgebase_article
+      - default
       - knowledgebase_category
 
   published:
@@ -15,5 +14,5 @@ sections:
     type: pages
     status: listed
     templates:
-      - knowledgebase_article
+      - default
       - knowledgebase_category
