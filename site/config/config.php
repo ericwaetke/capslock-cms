@@ -3,10 +3,17 @@
 return [
   'debug' => true,
   'api' => [
-        'basicAuth' => true
+    'basicAuth' => true
   ],
   'panel' =>[
       'install' => true
+  ],
+  'headless' => [
+    'token' => 'test',
+    'panel' => [
+        'frontendUrl' => 'https://changecollective.woven.design',
+        'redirect' => true
+    ]
   ],
   'url' => [
     'https://capslock-cms.woven.design',
