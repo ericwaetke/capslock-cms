@@ -1,0 +1,43 @@
+{
+  "name": "johannschopplich/kirby-headless",
+  "description": "Kirby CMS plugin to enable headless mode",
+  "type": "kirby-plugin",
+  "version": "4.0.2",
+  "keywords": [
+    "kirby",
+    "headless"
+  ],
+  "license": "MIT",
+  "homepage": "https://kirby.tools/docs/headless",
+  "authors": [
+    {
+      "name": "Johann Schopplich",
+      "email": "hello@johannschopplich.com",
+      "homepage": "https://johannschopplich.com"
+    }
+  ],
+  "require": {
+    "getkirby/composer-installer": "^1.2"
+  },
+  "require-dev": {
+    "getkirby/cms": "^4"
+  },
+  "autoload": {
+    "psr-4": {
+      "JohannSchopplich\\Headless\\": "src/classes/"
+    }
+  },
+  "scripts": {
+    "csfix": "@php tools/phpcs/vendor/bin/php-cs-fixer fix",
+    "dist": "composer install --no-dev --optimize-autoloader"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "allow-plugins": {
+      "getkirby/composer-installer": true
+    }
+  },
+  "extra": {
+    "kirby-cms-path": false
+  }
+}
