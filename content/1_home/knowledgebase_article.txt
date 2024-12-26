@@ -2,7 +2,7 @@ Title: Home
 
 ----
 
-Blocks: [{"content":{"text":"<p>Capslock … Antikapitalismus … Design bla bla</p>"},"id":"bfc5bcd3-83d8-40e7-a83d-a9bef0561da1","isHidden":false,"type":"text"},{"content":{"title":"Incom Workspace","type":"external","href":"https://fhp.incom.org/workspace/10921","url":[],"description":"Hier gibt’s die wahren Informationen"},"id":"a1d50a0d-1df1-470f-9166-184997532254","isHidden":false,"type":"link-card"},{"content":{"title":"Hier geht’s zur Knowledgebase!","type":"internal","href":"","url":["knowledgebase/introduction"],"description":""},"id":"8d1e30c6-239f-4d46-9479-6e832969b87a","isHidden":false,"type":"link-card"}]
+Blocks: [{"content":{"text":"<p>Capslock … Antikapitalismus … Design bla bla</p>"},"id":"bfc5bcd3-83d8-40e7-a83d-a9bef0561da1","isHidden":false,"type":"text"},{"content":{"title":"Incom Workspace","type":"external","href":"https://fhp.incom.org/workspace/10921","url":[],"description":"Hier gibt’s die wahren Informationen"},"id":"a1d50a0d-1df1-470f-9166-184997532254","isHidden":false,"type":"link-card"},{"content":{"title":"Hier geht’s zur Knowledgebase!","type":"internal","href":"","url":["knowledgebase/introduction"],"description":""},"id":"8d1e30c6-239f-4d46-9479-6e832969b87a","isHidden":false,"type":"link-card"},{"content":{"apiurl":"https://changecollective-mail.woven.design/"},"id":"017f4ebe-26ea-4b36-b293-d31f54b8070e","isHidden":false,"type":"become-member"}]
 
 ----
 
