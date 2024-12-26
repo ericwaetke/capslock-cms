@@ -1,0 +1,7 @@
+name: ›Become Member‹ Block
+icon: bolt
+preview: fields
+fields:
+  apiURL:
+    type: text
+    required: true
