@@ -5,7 +5,9 @@ Kirby::plugin('ericwaetke/api', [
     'routes' => [
       [
         'pattern' => 'csrf',
-        'action'  => csrf()
+        'action'  => function () {
+          return csrf();
+        },
       ]
     ]
   ]

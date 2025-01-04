@@ -11,8 +11,8 @@ return [
   'headless' => [
     'token' => 'test',
     'panel' => [
+        'redirect' => true,
         'frontendUrl' => 'https://changecollective.woven.design',
-        'redirect' => true
     ]
   ],
   'url' => [
