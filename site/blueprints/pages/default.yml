@@ -16,3 +16,12 @@ columns:
               - link-card
               - become-member
               - image
+          access:
+            label: Page Access
+            type: select
+            default: all
+            options:
+              all: All
+              member: Members
+              contributor: Contributors
+              admin: Admins

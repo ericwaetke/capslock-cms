@@ -1,0 +1,13 @@
+Title: Admin Only
+
+----
+
+Blocks: [{"content":{"text":"<p>Yoo u an admin!!</p>"},"id":"68884de0-2cdf-477c-96ce-2d3fb75c66bb","isHidden":false,"type":"text"}]
+
+----
+
+Access: admin
+
+----
+
+Uuid: YYwEA3S8iTyrwVTb

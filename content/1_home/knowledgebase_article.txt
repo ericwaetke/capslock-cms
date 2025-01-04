@@ -6,4 +6,8 @@ Blocks: [{"content":{"text":"<p>Capslock … Antikapitalismus … Design bla bla
 
 ----
 
+Access: all
+
+----
+
 Uuid: FThSwfaJB5i5bD8i
