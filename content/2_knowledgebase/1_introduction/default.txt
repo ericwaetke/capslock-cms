@@ -6,4 +6,8 @@ Blocks: [{"content":{"text":"<p>Was ist Anticapitalismus? Was ist Capslock?</p><
 
 ----
 
+Access: all
+
+----
+
 Uuid: v7cDRzdmBWogdCLF
